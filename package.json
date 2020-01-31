@@ -4,9 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "proxy": "node proxy",
+    "start": "node index"
   },
   "keywords": [],
   "author": "Umar Adam <umarmash@gmail.com> (https://umaradam.xyz)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-proxy": "^1.18.0"
+  }
 }
